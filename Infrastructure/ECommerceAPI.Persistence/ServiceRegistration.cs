@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Persistence.Contexts;
 using ECommerceAPI.Persistence.Repositories;
+using ECommerceAPI.Persistence.Repositories.Customer;
+using ECommerceAPI.Persistence.Repositories.Order;
+using ECommerceAPI.Persistence.Repositories.Product;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 

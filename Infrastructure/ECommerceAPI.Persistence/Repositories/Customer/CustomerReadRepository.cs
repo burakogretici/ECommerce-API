@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ECommerceAPI.Application.Repositories;
-using ECommerceAPI.Domain.Entities;
+﻿using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Persistence.Contexts;
 
-namespace ECommerceAPI.Persistence.Repositories
+namespace ECommerceAPI.Persistence.Repositories.Customer
 {
-    public class CustomerReadRepository : ReadRepository<Customer>,ICustomerReadRepository
+    public class CustomerReadRepository : ReadRepository<Domain.Entities.Customer>,ICustomerReadRepository
     {
         public CustomerReadRepository(ECommerceAPIDbContext context) : base(context)
         {
