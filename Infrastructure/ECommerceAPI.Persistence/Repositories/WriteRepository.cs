@@ -53,7 +53,7 @@ namespace ECommerceAPI.Persistence.Repositories
             return Remove(firstOrDefaultAsync);
         }
 
-        public async Task<int> SaveAsync(string id)
+        public async Task<int> SaveAsync()
             => await _context.SaveChangesAsync();
 
 
