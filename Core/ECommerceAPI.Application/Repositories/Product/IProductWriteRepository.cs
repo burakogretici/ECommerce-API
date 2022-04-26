@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ECommerceAPI.Domain.Entities;
-
-namespace ECommerceAPI.Application.Repositories
+﻿namespace ECommerceAPI.Application.Repositories.Product
 {
-    public interface IProductWriteRepository : IWriteRepository<Product>
+    public interface IProductWriteRepository : IWriteRepository<Domain.Entities.Product>
     {
     }
 }

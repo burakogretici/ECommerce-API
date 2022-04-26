@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq.Expressions;
 using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Domain.Entities.Common;
 using ECommerceAPI.Persistence.Contexts;

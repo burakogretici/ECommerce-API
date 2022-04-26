@@ -1,9 +1,8 @@
 ﻿
 using System.Net;
-using ECommerceAPI.Application.Repositories;
+using ECommerceAPI.Application.Repositories.Product;
 using ECommerceAPI.Application.ViewModels.Products;
 using ECommerceAPI.Domain.Entities;
-using ECommerceAPI.Persistence.Contexts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ECommerceAPI.API.Controllers
@@ -21,6 +20,10 @@ namespace ECommerceAPI.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(VM_Create_Product model)
         {
+            if (ModelState.IsValid)
+            {
+
+            }
             Product product = new Product
             {
                 Name = model.Name,

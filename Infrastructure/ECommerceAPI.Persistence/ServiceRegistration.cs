@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ECommerceAPI.Application.Repositories;
+﻿using ECommerceAPI.Application.Repositories.Customer;
+using ECommerceAPI.Application.Repositories.Order;
+using ECommerceAPI.Application.Repositories.Product;
 using ECommerceAPI.Persistence.Contexts;
-using ECommerceAPI.Persistence.Repositories;
 using ECommerceAPI.Persistence.Repositories.Customer;
 using ECommerceAPI.Persistence.Repositories.Order;
 using ECommerceAPI.Persistence.Repositories.Product;

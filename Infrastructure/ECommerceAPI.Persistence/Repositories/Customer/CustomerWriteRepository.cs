@@ -1,4 +1,4 @@
-﻿using ECommerceAPI.Application.Repositories;
+﻿using ECommerceAPI.Application.Repositories.Customer;
 using ECommerceAPI.Persistence.Contexts;
 
 namespace ECommerceAPI.Persistence.Repositories.Customer
