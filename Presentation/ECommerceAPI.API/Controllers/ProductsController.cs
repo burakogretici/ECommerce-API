@@ -20,10 +20,6 @@ namespace ECommerceAPI.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(VM_Create_Product model)
         {
-            if (ModelState.IsValid)
-            {
-
-            }
             Product product = new Product
             {
                 Name = model.Name,
