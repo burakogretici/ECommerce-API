@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECommerceAPI.Application.ViewModels.Products
+namespace ECommerceAPI.Application.Features.Queries.Product.GetByIdProduct
 {
-    public class VM_Create_Product
+    public class GetByIdProductQueryResponse
     {
         public string Name { get; set; }
         public int Stock { get; set; }
